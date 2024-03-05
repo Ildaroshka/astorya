@@ -1,0 +1,304 @@
+/* общее */
+body{
+    background-color: #000000;
+}
+
+h1, h2, p, a{
+    font-family: "Open Sans";
+    color: white;
+}
+
+.text_liner{
+    font-weight: 700;
+    color: #FFC178;
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/* Голова */
+header{
+    display: flex;
+    padding: 30px 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100
+}
+
+header a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600; 
+  }
+
+nav a + a{
+    padding-left:60px;
+}
+
+.Logo{
+
+    display: inline-block;
+}
+
+.Logo a{
+    color: white; 
+    font-size: 20px; 
+    font-weight: 700; 
+    text-transform: capitalize; 
+    letter-spacing: 0.24px; 
+    word-wrap: break-word;
+}
+
+nav{
+    align-items: center;
+    padding: 7px 0;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 38px;
+    padding-left: 33%;
+
+}
+
+
+/* FON */
+.fon{
+    background: url('../img/backround3.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+
+.container_fuul {
+    padding: 200px 50px;
+    width: 100%;
+}
+.social{
+    padding: 0 15px;
+    position: absolute;
+    height: auto;
+}
+.social h2{
+    transform-origin: top left;
+    transform: rotate(90deg);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.social_img{
+    margin-top: 180px;
+    max-width: 18px;
+    transform-origin: top left;
+    transform: rotate(180deg);
+
+}
+.social img{
+    margin-bottom: 10px;
+}
+hr{
+    background-color: #FFC178;
+    width: 55px;
+    height: 2px;
+}
+.ZAG {
+    margin-left: 30%;
+}
+.verh_zag{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.verh_zag h1{
+    margin-left: 15px;
+}
+.girnii_zag h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.niz_zag h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+.niz {
+    margin-top: 150px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.niz img{
+    max-width: 18px;
+    max-height: 18px;
+}
+/* FON -*/
+
+/* FORMA */
+.form input{
+    height: 25px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid black;
+}
+
+.FIO label{
+    margin-left: 1%;
+}
+
+.tel{
+    margin-left: 1%;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    background-color: rgba(251, 215, 132, 0.5);
+    margin-bottom:100px;
+    padding: 50px 50px;
+}
+.form h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.form label{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+}
+.FIO input{
+    width: 100%;
+}
+
+.svize #tel{
+    float: left;
+    width: 46%;
+}
+.svize input{
+    float: right;
+    width: 46%;
+}
+
+.svize .email{
+    margin-left: 34%;
+}
+
+.label .ot{
+    margin-left: 35%;
+}
+
+.label .za{
+    padding-left: 7.19px;
+}
+
+
+.data{
+    width: 100%;
+}
+.data #data_za{
+    float: left;
+    width: 46%;
+}
+.data #data_ot{
+    float: right;
+    width: 46%;
+}
+
+.kol input{
+    width: 30%;
+}
+.kol input+input{
+    margin-left: 4%;
+}
+
+.kol label+label{
+    margin-left: 8%;
+}
+
+.kol .vz{
+    margin-left: 1.53%;
+}
+
+.kol .ho{
+   margin-left: 14%; 
+}
+
+.dom .domik{
+    margin-right: 10%;
+}
+
+.info input{
+    width: 100%;
+    height: 100px;
+}
+
+
+button{
+    text-align: center;
+    margin: 3% 30%;
+    font-size: 18px;
+    font-weight: 300;
+    border: 0.5px solid black;
+    background-color: #FFC178;
+    padding: 1% 10%;
+}
+/* FORMA- */
+
+/* Content */
+.content {
+    position: relative;
+    margin: -100px auto;
+    width: 50%;
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 100px;
+}
+.lin{
+    margin-bottom: 20px;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+
+footer nav{
+    float: right;
+    padding-left: 0;
+}
+footer img{
+    max-height: 18px;
+    padding-right: 15px;
+}
+
+
+footer nav a +a{
+    padding: 0;
+    margin: 0;
+}
+
+.foo{
+    margin: 10px 0;
+    width: 100%;
+    background-color: #979797;
+    height: 1px;
+}
+
+.foot{
+    text-align: center;
+    color:#979797;
+    font-size: 12px;
+}
+

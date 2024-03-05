@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style3.css">
+
+    <title>Бронь</title>
+</head>
+<body>
+    <!-- ______________________________HEADER___________________________ -->
+    <header>
+        <div class="Logo">
+            <h1><a href="./index.html">Астория</a></h1>
+        </div>
+        <nav>
+            <a href="./index.html">Главная</a>
+            <a href="./about.html">О нас</a>
+            <a href="./bron.html">Бронь</a>
+            
+        </nav>        
+    </header>
+     <!-- ______________________________HEADER---___________________________ -->
+    <!-- _________________________________BODY________________________________________________________ -->
+    <div class="body">
+        <!-- ____________________________________FULLSCRENE____________________________ -->
+        <div class="fon">
+            <div class="container_fuul">
+                <div class="social">
+                    <h2>Подписывайтесь</h2>
+                    <div class="social_img">
+                        <a href="/"><img src="./img/instagram.svg" alt="insta" class="socal"></a>
+                        <br>
+                        <a href="/"><img src="./img/twitter.svg" alt="twitter" class="socal"></a>
+                        <br>
+                        <a href="/"><img src="./img/face.svg" alt="facebook" class="socal"></a>
+                    </div>
+                </div>
+                <div class="ZAG">
+                    <div class="verh_zag">
+                        <hr>
+                        <h1 class="text_liner">Астрахань лучший город для отдыха</h1>
+                    </div>
+                    <div class="girnii_zag">
+                        <h1>Бронь</h1>
+                    </div>
+                    <div class="niz_zag"><h1>Лучших домиков</h1></div>
+                </div>
+                <div class="niz">
+                    <a href="#content"><h1>Листайте вниз</h1><img src="./img/arrow_downward_24px.svg" alt="vniz"></a>
+                </div>
+            </div>
+        </div>
+        <!-- ____________________________________FULLSCRENE---____________________________ -->
+        <!-- ____________________________CONTENT___________________________ -->
+        <div class="content" id="content">
+            <div class="form">
+                <h1>Бронирование</h1>
+                <div class="FIO">
+                    <label for="name">ФИО гостя </label>
+                    <input type="text" id="fio">
+                </div>
+                <div class="svize">
+                    <div class="label">
+                        <label for="tel" class="tel">Ваш телефон</label>
+                        <label for="email" class="email">Ваш email </label>
+                    </div>
+                    <input type="tel"  id="tel">
+                    <input type="email" id="email">
+                </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="data_za" class="za">Дата заезда </label>
+                        <label for="data_ot" class="ot">Дата отъезда </label>
+                    </div>
+                    <input type="date" id="data_za">
+                    <input type="date"  id="data_ot">
+                </div>
+                <div class="kol">
+                    <label for="kol_vz" class="vz">кол-во взрослых</label>
+                    <label for="kol_ch" class="ch">кол-во детей</label>
+                    <label for="kol_ho" class="ho">кол-во домиков</label>
+                    <br>
+                    <input type="number" id="kol_vz">
+                    <input type="number" id="kol_ch">
+                    <input type="number" id="kol_ho">
+                </div>
+                <div class="dom">
+                    <label class="domik">тип домика</label>
+                    <label>
+                        <input type="radio" name="tipe" value="семейный">семейный
+                    </label>
+                    <label>
+                        <input type="radio" name="tipe" value="комфорт">комфорт
+                    </label>
+                    <label>
+                        <input type="radio" name="tipe" value="бизнес">бизнес
+                    </label>
+                 </div>
+                 <div class="info">
+                    <label for="info">Дополнительная информация</label>
+                    <input type="text" id="info">
+                </div>
+                <button type="reset">Бронировать</button>
+            </div>
+           <!-- _______________________________________________________FOOTER__________________________________ -->
+           <footer>
+            <div class="lin">
+                <a href="./index.html"><h1 class="logo">Астория</h1></a>
+                <nav class="footer">
+                    <a href="/"><img src="./img/Facebook_f.svg" alt="facebook"></a>
+                    <a href="/"><img src="./img/twitter_f.svg" alt="twitter"></a>
+                    <a href=""><img src="./img/insta_f.svg" alt="instagram"></a>
+                </nav>
+            </div>
+            <hr class="foo">
+            <p class="foot">Copyright 2023 Астория</p>
+           </footer>
+        </div>
+    </div>
+</body>
+</html>
